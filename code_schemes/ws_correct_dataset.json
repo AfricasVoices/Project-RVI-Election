@@ -4,6 +4,127 @@
     "Version": "0.0.0.2",
     "Codes": [
         {
+            "CodeID": "code-70ac05ab",
+            "CodeType": "Normal",
+            "DisplayText": "age",
+            "StringValue": "age",
+            "NumericValue": 1,
+            "VisibleInCoda": true,
+            "MatchValues": [
+                "age"
+            ]
+        },
+        {
+            "CodeID": "code-6774cedd",
+            "CodeType": "Normal",
+            "DisplayText": "gender",
+            "StringValue": "gender",
+            "NumericValue": 2,
+            "VisibleInCoda": true,
+            "MatchValues": [
+                "gender"
+            ]
+        },
+        {
+            "CodeID": "code-dda6e4b4",
+            "CodeType": "Normal",
+            "DisplayText": "location",
+            "StringValue": "location",
+            "NumericValue": 3,
+            "VisibleInCoda": true,
+            "MatchValues": [
+                "location"
+            ]
+        },
+        {
+            "CodeID": "code-c2ef3b7f",
+            "CodeType": "Normal",
+            "DisplayText": "recently displaced",
+            "StringValue": "recently_displaced",
+            "NumericValue": 4,
+            "VisibleInCoda": true,
+            "MatchValues": [
+                "recently_displaced"
+            ]
+        },
+        {
+            "CodeID": "code-87ec1cb8",
+            "CodeType": "Normal",
+            "DisplayText": "household language",
+            "StringValue": "household_language",
+            "NumericValue": 6,
+            "VisibleInCoda": true,
+            "MatchValues": [
+                "household_language"
+            ]
+        },
+        {
+            "CodeID": "code-c4a296a9",
+            "CodeType": "Normal",
+            "DisplayText": "disability",
+            "StringValue": "disability",
+            "NumericValue": 130,
+            "VisibleInCoda": true,
+            "MatchValues": [
+                "disability"
+            ]
+        },
+        {
+            "CodeID": "code-dd5ae0e2",
+            "CodeType": "Normal",
+            "DisplayText": "clan",
+            "StringValue": "clan",
+            "NumericValue": 173,
+            "VisibleInCoda": true,
+            "MatchValues": [
+                "clan"
+            ]
+        },
+        {
+            "CodeID": "code-8aa1d609",
+            "CodeType": "Normal",
+            "DisplayText": "sdc-survey s02e01",
+            "StringValue": "sdc_survey_s02e01",
+            "NumericValue": 174,
+            "VisibleInCoda": true,
+            "MatchValues": [
+                "sdc_survey_s02e01"
+            ]
+        },
+        {
+            "CodeID": "code-6b5e8bf4",
+            "CodeType": "Normal",
+            "DisplayText": "sdc-survey s02e02",
+            "StringValue": "sdc_survey_s02e02",
+            "NumericValue": 175,
+            "VisibleInCoda": true,
+            "MatchValues": [
+                "sdc_survey_s02e02"
+            ]
+        },
+        {
+            "CodeID": "code-4100ec56",
+            "CodeType": "Normal",
+            "DisplayText": "sdc-survey s02e01 follow-up",
+            "StringValue": "sdc_survey_s02e01_follow_up",
+            "NumericValue": 176,
+            "VisibleInCoda": true,
+            "MatchValues": [
+                "sdc_survey_s02e01_follow_up"
+            ]
+        },
+        {
+            "CodeID": "code-99c1c1ac",
+            "CodeType": "Normal",
+            "DisplayText": "sdc-survey s02e02 follow-up",
+            "StringValue": "sdc_survey_s02e02_follow_up",
+            "NumericValue": 177,
+            "VisibleInCoda": true,
+            "MatchValues": [
+                "sdc_survey_s02e02_follow_up"
+            ]
+        },
+        {
             "CodeID": "code-38237a8e",
             "CodeType": "Normal",
             "DisplayText": "sdc-survey-sira complains feedback",
@@ -309,83 +430,6 @@
             "VisibleInCoda": true,
             "MatchValues": [
                 "sdc_somalia_health_s01_evaluation_other"
-            ]
-        },
-        {
-            "CodeID": "code-70ac05ab",
-            "CodeType": "Normal",
-            "DisplayText": "age",
-            "StringValue": "age",
-            "NumericValue": 1,
-            "VisibleInCoda": true,
-            "MatchValues": [
-                "age"
-            ]
-        },
-        {
-            "CodeID": "code-6774cedd",
-            "CodeType": "Normal",
-            "DisplayText": "gender",
-            "StringValue": "gender",
-            "NumericValue": 2,
-            "VisibleInCoda": true,
-            "MatchValues": [
-                "gender"
-            ]
-        },
-        {
-            "CodeID": "code-dda6e4b4",
-            "CodeType": "Normal",
-            "DisplayText": "location",
-            "StringValue": "location",
-            "NumericValue": 3,
-            "VisibleInCoda": true,
-            "MatchValues": [
-                "location"
-            ]
-        },
-        {
-            "CodeID": "code-c2ef3b7f",
-            "CodeType": "Normal",
-            "DisplayText": "recently displaced",
-            "StringValue": "recently_displaced",
-            "NumericValue": 4,
-            "VisibleInCoda": true,
-            "MatchValues": [
-                "recently_displaced"
-            ]
-        },
-        {
-            "CodeID": "code-87ec1cb8",
-            "CodeType": "Normal",
-            "DisplayText": "household language",
-            "StringValue": "household_language",
-            "NumericValue": 6,
-            "VisibleInCoda": true,
-            "MatchValues": [
-                "household_language"
-            ]
-        },
-        {
-            "CodeID": "code-c4a296a9",
-            "CodeType": "Normal",
-            "DisplayText": "disability",
-            "StringValue": "disability",
-            "NumericValue": 130,
-            "VisibleInCoda": true,
-            "MatchValues": [
-                "disability"
-            ]
-        },
-        {
-            "CodeID": "code-dd5ae0e2",
-            "CodeType": "Normal",
-            "DisplayText": "clan",
-            "StringValue": "clan",
-            "NumericValue": 173,
-            "VisibleInCoda": true,
-            "MatchValues": [
-                "clan"
             ]
         },
         {

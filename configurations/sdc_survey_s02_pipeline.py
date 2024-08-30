@@ -38,6 +38,12 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
             ),
             sync_config=RapidProToEngagementDBConfiguration(
                 flow_result_configurations=[
+                    FlowResultConfiguration("sdc_survey_s02e01_activation", "rqa_s02e01", "sdc_survey_s02e01"),
+                    FlowResultConfiguration("sdc_survey_s02e02_activation", "rqa_s02e02", "sdc_survey_s02e02"),
+
+                    FlowResultConfiguration("sdc_survey_s02e01_follow_up_activation", "rqa_s02e01_follow_up", "sdc_survey_s02e01_follow_up"),
+                    FlowResultConfiguration("sdc_survey_s02e02_follow_up_activation", "rqa_s02e02_follow_up", "sdc_survey_s02e02_follow_up"),
+
                     FlowResultConfiguration("sdc_survey_s02_demog", "imaqal_pool_district", "location"),
                     FlowResultConfiguration("sdc_survey_s02_demog", "imaqal_pool_gender", "gender"),
                     FlowResultConfiguration("sdc_survey_s02_demog", "imaqal_pool_age", "age"),
@@ -53,6 +59,42 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
         coda=CodaClientConfiguration(credentials_file_url="gs://avf-credentials/coda-production.json"),
         sync_config=CodaSyncConfiguration(
             dataset_configurations=[
+                CodaDatasetConfiguration(
+                    coda_dataset_id="SDC_Survey_s02e01",
+                    engagement_db_dataset="sdc_survey_s02e01",
+                    code_scheme_configurations=[
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("rqas/sdc_somalia/sdc_survey_s02e01"),
+                                                coda_code_schemes_count=3),
+                    ],
+                    ws_code_match_value="sdc_survey_s02e01"
+                ),
+                CodaDatasetConfiguration(
+                    coda_dataset_id="SDC_Survey_s02e02",
+                    engagement_db_dataset="sdc_survey_s02e02",
+                    code_scheme_configurations=[
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("rqas/sdc_somalia/sdc_survey_s02e02"),
+                                                coda_code_schemes_count=3),
+                    ],
+                    ws_code_match_value="sdc_survey_s02e02"
+                ),
+                CodaDatasetConfiguration(
+                    coda_dataset_id="SDC_Survey_s02e01_follow_up",
+                    engagement_db_dataset="sdc_survey_s02e01_follow_up",
+                    code_scheme_configurations=[
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("rqas/sdc_somalia/sdc_survey_s02e01_follow_up"),
+                                                coda_code_schemes_count=3),
+                    ],
+                    ws_code_match_value="sdc_survey_s02e01_follow_up"
+                ),
+                CodaDatasetConfiguration(
+                    coda_dataset_id="SDC_Survey_s02e02_follow_up",
+                    engagement_db_dataset="sdc_survey_s02e02_follow_up",
+                    code_scheme_configurations=[
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("rqas/sdc_somalia/sdc_survey_s02e02_follow_up"),
+                                                coda_code_schemes_count=3),
+                    ],
+                    ws_code_match_value="sdc_survey_s02e02_follow_up"
+                ),
                 CodaDatasetConfiguration(
                     coda_dataset_id="IMAQAL_age",
                     engagement_db_dataset="age",
@@ -144,6 +186,50 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
             drive_dir="sdc_survey_s02_analysis_outputs"
         ),
         dataset_configurations=[
+            AnalysisDatasetConfiguration(
+                engagement_db_datasets=["sdc_survey_s02e01"],
+                dataset_type=DatasetTypes.RESEARCH_QUESTION_ANSWER,
+                raw_dataset="sdc_survey_s02e01_raw",
+                coding_configs=[
+                    CodingConfiguration(
+                        code_scheme=load_code_scheme("rqas/sdc_somalia/sdc_survey_s02e01"),
+                        analysis_dataset="sdc_survey_s02e01"
+                    )
+                ]
+            ),
+            AnalysisDatasetConfiguration(
+                engagement_db_datasets=["sdc_survey_s02e02"],
+                dataset_type=DatasetTypes.RESEARCH_QUESTION_ANSWER,
+                raw_dataset="sdc_survey_s02e02_raw",
+                coding_configs=[
+                    CodingConfiguration(
+                        code_scheme=load_code_scheme("rqas/sdc_somalia/sdc_survey_s02e02"),
+                        analysis_dataset="sdc_survey_s02e02"
+                    )
+                ]
+            ),
+            AnalysisDatasetConfiguration(
+                engagement_db_datasets=["sdc_survey_s02e01_follow_up"],
+                dataset_type=DatasetTypes.RESEARCH_QUESTION_ANSWER,
+                raw_dataset="sdc_survey_s02e01_follow_up_raw",
+                coding_configs=[
+                    CodingConfiguration(
+                        code_scheme=load_code_scheme("rqas/sdc_somalia/sdc_survey_s02e01_follow_up"),
+                        analysis_dataset="sdc_survey_s02e01_follow_up"
+                    )
+                ]
+            ),
+            AnalysisDatasetConfiguration(
+                engagement_db_datasets=["sdc_survey_s02e02_follow_up"],
+                dataset_type=DatasetTypes.RESEARCH_QUESTION_ANSWER,
+                raw_dataset="sdc_survey_s02e02_follow_up_raw",
+                coding_configs=[
+                    CodingConfiguration(
+                        code_scheme=load_code_scheme("rqas/sdc_somalia/sdc_survey_s02e02_follow_up"),
+                        analysis_dataset="sdc_survey_s02e02_follow_up"
+                    )
+                ]
+            ),
             OperatorDatasetConfiguration(
                 raw_dataset="operator_raw",
                 coding_configs=[
