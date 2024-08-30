@@ -121,7 +121,8 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     coda_dataset_id="IMAQAL_household_language",
                     engagement_db_dataset="household_language",
                     code_scheme_configurations=[
-                        CodeSchemeConfiguration(code_scheme=load_code_scheme("demographics/household_language"), auto_coder=None)
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("demographics/household_language"), 
+                                                coda_code_schemes_count=2, auto_coder=None)
                     ],
                     ws_code_match_value="household_language",
                     dataset_users_file_url="gs://avf-project-datasets/2022/IMAQAL-POOL/coda_users.json"
