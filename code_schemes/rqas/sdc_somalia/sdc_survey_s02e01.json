@@ -4,6 +4,62 @@
     "Version": "0.0.0.1",
     "Codes": [
         {
+            "CodeID": "code-544cc5b3",
+            "DisplayText": "general healthcare centres",
+            "CodeType": "Normal",
+            "NumericValue": 1,
+            "StringValue": "general_healthcare_centres",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-e19dd004",
+            "DisplayText": "government healthcare centres",
+            "CodeType": "Normal",
+            "NumericValue": 2,
+            "StringValue": "government_healthcare_centres",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-0ddd7bbb",
+            "DisplayText": "pharmacies",
+            "CodeType": "Normal",
+            "NumericValue": 3,
+            "StringValue": "pharmacies",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-33e20fe5",
+            "DisplayText": "private healhcare centres",
+            "CodeType": "Normal",
+            "NumericValue": 4,
+            "StringValue": "private_healhcare_centres",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-dfacbe3c",
+            "DisplayText": "mch centres",
+            "CodeType": "Normal",
+            "NumericValue": 5,
+            "StringValue": "mch_centres",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-595d3288",
+            "DisplayText": "no access to healthcare services",
+            "CodeType": "Normal",
+            "NumericValue": 6,
+            "StringValue": "no_access_to_healthcare_services",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-68d7b45b",
+            "DisplayText": "other theme",
+            "CodeType": "Normal",
+            "NumericValue": 7,
+            "StringValue": "other_theme",
+            "VisibleInCoda": true
+        },
+        {
             "CodeID": "code-NA-f93d3eb7",
             "CodeType": "Control",
             "ControlCode": "NA",
