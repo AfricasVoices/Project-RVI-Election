@@ -4,6 +4,62 @@
     "Version": "0.0.0.1",
     "Codes": [
         {
+            "CodeID": "code-97c03035",
+            "DisplayText": "create awareness on healthcare services",
+            "CodeType": "Normal",
+            "NumericValue": 1,
+            "StringValue": "create_awareness_on_healthcare_services",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-1434d604",
+            "DisplayText": "improve healthcare equipment",
+            "CodeType": "Normal",
+            "NumericValue": 2,
+            "StringValue": "improve_healthcare_equipment",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-f7964a3c",
+            "DisplayText": "increase number of doctors",
+            "CodeType": "Normal",
+            "NumericValue": 3,
+            "StringValue": "increase_number_of_doctors",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-c1dce5f7",
+            "DisplayText": "increase healthcare services",
+            "CodeType": "Normal",
+            "NumericValue": 4,
+            "StringValue": "increase_healthcare_services",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-2f1970dc",
+            "DisplayText": "provide free healthcare services",
+            "CodeType": "Normal",
+            "NumericValue": 5,
+            "StringValue": "provide_free_healthcare_services",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-8895d26c",
+            "DisplayText": "foster good governance",
+            "CodeType": "Normal",
+            "NumericValue": 6,
+            "StringValue": "foster_good_governance",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-38974f2c",
+            "DisplayText": "other theme",
+            "CodeType": "Normal",
+            "NumericValue": 7,
+            "StringValue": "other_theme",
+            "VisibleInCoda": true
+        },
+        {
             "CodeID": "code-NA-f93d3eb7",
             "CodeType": "Control",
             "ControlCode": "NA",
