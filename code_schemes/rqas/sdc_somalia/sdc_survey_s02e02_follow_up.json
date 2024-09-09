@@ -4,6 +4,78 @@
     "Version": "0.0.0.1",
     "Codes": [
         {
+            "CodeID": "code-99781753",
+            "DisplayText": "the somali government",
+            "CodeType": "Normal",
+            "NumericValue": 1,
+            "StringValue": "the_somali_government",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-a5ae9315",
+            "DisplayText": "traditional leaders",
+            "CodeType": "Normal",
+            "NumericValue": 2,
+            "StringValue": "traditional_leaders",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-aff54676",
+            "DisplayText": "security forces",
+            "CodeType": "Normal",
+            "NumericValue": 3,
+            "StringValue": "security_forces",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-b15c77e4",
+            "DisplayText": "muslim scholars",
+            "CodeType": "Normal",
+            "NumericValue": 4,
+            "StringValue": "muslim_scholars",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-e91e49a4",
+            "DisplayText": "the community",
+            "CodeType": "Normal",
+            "NumericValue": 5,
+            "StringValue": "the_community",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-823a668d",
+            "DisplayText": "the youth",
+            "CodeType": "Normal",
+            "NumericValue": 6,
+            "StringValue": "the_youth",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-f89e2c70",
+            "DisplayText": "women groups",
+            "CodeType": "Normal",
+            "NumericValue": 7,
+            "StringValue": "women_groups",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-bdce19df",
+            "DisplayText": "i do not know",
+            "CodeType": "Normal",
+            "NumericValue": 8,
+            "StringValue": "i_do_not_know",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-1a107f08",
+            "DisplayText": "other theme",
+            "CodeType": "Normal",
+            "NumericValue": 9,
+            "StringValue": "other_theme",
+            "VisibleInCoda": true
+        },
+        {
             "CodeID": "code-NA-f93d3eb7",
             "CodeType": "Control",
             "ControlCode": "NA",
