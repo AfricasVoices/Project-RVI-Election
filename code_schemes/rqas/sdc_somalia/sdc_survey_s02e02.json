@@ -4,6 +4,54 @@
     "Version": "0.0.0.1",
     "Codes": [
         {
+            "CodeID": "code-01152119",
+            "DisplayText": "invloved in awareness creation",
+            "CodeType": "Normal",
+            "NumericValue": 1,
+            "StringValue": "invloved_in_awareness_creation",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-9d876816",
+            "DisplayText": "reconciliation initiatives",
+            "CodeType": "Normal",
+            "NumericValue": 2,
+            "StringValue": "reconciliation_initiatives",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-25159149",
+            "DisplayText": "youth peace initiatives",
+            "CodeType": "Normal",
+            "NumericValue": 3,
+            "StringValue": "youth_peace_initiatives",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-7181e8cf",
+            "DisplayText": "not involved",
+            "CodeType": "Normal",
+            "NumericValue": 4,
+            "StringValue": "not_involved",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-5f8aada1",
+            "DisplayText": "involved in many initiatives",
+            "CodeType": "Normal",
+            "NumericValue": 5,
+            "StringValue": "involved_in_many_initiatives",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-bf697e81",
+            "DisplayText": "other theme",
+            "CodeType": "Normal",
+            "NumericValue": 6,
+            "StringValue": "other_theme",
+            "VisibleInCoda": true
+        },
+        {
             "CodeID": "code-NA-f93d3eb7",
             "CodeType": "Control",
             "ControlCode": "NA",
