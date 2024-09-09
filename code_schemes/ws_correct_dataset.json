@@ -103,6 +103,17 @@
             ]
         },
         {
+            "CodeID": "code-ecfb64da",
+            "CodeType": "Normal",
+            "DisplayText": "sdc-survey s02e03",
+            "StringValue": "sdc_survey_s02e03",
+            "NumericValue": 178,
+            "VisibleInCoda": true,
+            "MatchValues": [
+                "sdc_survey_s02e03"
+            ]
+        },
+        {
             "CodeID": "code-4100ec56",
             "CodeType": "Normal",
             "DisplayText": "sdc-survey s02e01 follow-up",
@@ -122,6 +133,17 @@
             "VisibleInCoda": true,
             "MatchValues": [
                 "sdc_survey_s02e02_follow_up"
+            ]
+        },
+        {
+            "CodeID": "code-7aadd04f",
+            "CodeType": "Normal",
+            "DisplayText": "sdc-survey s02e03 follow-up",
+            "StringValue": "sdc_survey_s02e03_follow_up",
+            "NumericValue": 179,
+            "VisibleInCoda": true,
+            "MatchValues": [
+                "sdc_survey_s02e03_follow_up"
             ]
         },
         {

@@ -40,9 +40,11 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                 flow_result_configurations=[
                     FlowResultConfiguration("sdc_survey_s02e01_activation", "rqa_s02e01", "sdc_survey_s02e01"),
                     FlowResultConfiguration("sdc_survey_s02e02_activation", "rqa_s02e02", "sdc_survey_s02e02"),
+                    FlowResultConfiguration("sdc_survey_s02e03_activation", "rqa_s02e03", "sdc_survey_s02e03"),
 
                     FlowResultConfiguration("sdc_survey_s02e01_follow_up_activation", "rqa_s02e01_follow_up", "sdc_survey_s02e01_follow_up"),
                     FlowResultConfiguration("sdc_survey_s02e02_follow_up_activation", "rqa_s02e02_follow_up", "sdc_survey_s02e02_follow_up"),
+                    FlowResultConfiguration("sdc_survey_s02e03_follow_up_activation", "rqa_s02e03_follow_up", "sdc_survey_s02e03_follow_up"),
 
                     FlowResultConfiguration("sdc_survey_s02_demog", "imaqal_pool_district", "location"),
                     FlowResultConfiguration("sdc_survey_s02_demog", "imaqal_pool_gender", "gender"),
@@ -78,6 +80,15 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     ws_code_match_value="sdc_survey_s02e02"
                 ),
                 CodaDatasetConfiguration(
+                    coda_dataset_id="SDC_Survey_s02e03",
+                    engagement_db_dataset="sdc_survey_s02e03",
+                    code_scheme_configurations=[
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("rqas/sdc_somalia/sdc_survey_s02e03"),
+                                                coda_code_schemes_count=3),
+                    ],
+                    ws_code_match_value="sdc_survey_s02e03"
+                ),
+                CodaDatasetConfiguration(
                     coda_dataset_id="SDC_Survey_s02e01_follow_up",
                     engagement_db_dataset="sdc_survey_s02e01_follow_up",
                     code_scheme_configurations=[
@@ -94,6 +105,15 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                                                 coda_code_schemes_count=3),
                     ],
                     ws_code_match_value="sdc_survey_s02e02_follow_up"
+                ),
+                CodaDatasetConfiguration(
+                    coda_dataset_id="SDC_Survey_s02e03_follow_up",
+                    engagement_db_dataset="sdc_survey_s02e03_follow_up",
+                    code_scheme_configurations=[
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("rqas/sdc_somalia/sdc_survey_s02e03_follow_up"),
+                                                coda_code_schemes_count=3),
+                    ],
+                    ws_code_match_value="sdc_survey_s02e03_follow_up"
                 ),
                 CodaDatasetConfiguration(
                     coda_dataset_id="IMAQAL_age",
@@ -210,6 +230,17 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                 ]
             ),
             AnalysisDatasetConfiguration(
+                engagement_db_datasets=["sdc_survey_s02e03"],
+                dataset_type=DatasetTypes.RESEARCH_QUESTION_ANSWER,
+                raw_dataset="sdc_survey_s02e03_raw",
+                coding_configs=[
+                    CodingConfiguration(
+                        code_scheme=load_code_scheme("rqas/sdc_somalia/sdc_survey_s02e03"),
+                        analysis_dataset="sdc_survey_s02e03"
+                    )
+                ]
+            ),
+            AnalysisDatasetConfiguration(
                 engagement_db_datasets=["sdc_survey_s02e01_follow_up"],
                 dataset_type=DatasetTypes.RESEARCH_QUESTION_ANSWER,
                 raw_dataset="sdc_survey_s02e01_follow_up_raw",
@@ -228,6 +259,17 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     CodingConfiguration(
                         code_scheme=load_code_scheme("rqas/sdc_somalia/sdc_survey_s02e02_follow_up"),
                         analysis_dataset="sdc_survey_s02e02_follow_up"
+                    )
+                ]
+            ),
+            AnalysisDatasetConfiguration(
+                engagement_db_datasets=["sdc_survey_s02e03_follow_up"],
+                dataset_type=DatasetTypes.RESEARCH_QUESTION_ANSWER,
+                raw_dataset="sdc_survey_s02e03_follow_up_raw",
+                coding_configs=[
+                    CodingConfiguration(
+                        code_scheme=load_code_scheme("rqas/sdc_somalia/sdc_survey_s02e03_follow_up"),
+                        analysis_dataset="sdc_survey_s02e03_follow_up"
                     )
                 ]
             ),
