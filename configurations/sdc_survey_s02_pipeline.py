@@ -38,6 +38,54 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
             ),
             sync_config=RapidProToEngagementDBConfiguration(
                 flow_result_configurations=[
+                    FlowResultConfiguration("SOMREP_s02_sms_ad", "somrep_s02_feedback_mechanism", "somrep_s02_feedback_mechanism"),
+                    FlowResultConfiguration("SOMREP_s02_sms_ad", "somrep_s02_reason_feedback", "somrep_s02_reason_feedback"),
+
+                    FlowResultConfiguration("SOMREP_s02_sms_ad", "somrep_s02_gov_services", "somrep_s02_gov_services"),
+                    FlowResultConfiguration("SOMREP_s02_sms_ad", "somrep_s02_reasons_gov_services", "somrep_s02_reasons_gov_services"),
+
+                    FlowResultConfiguration("SOMREP_s02_sms_ad", "somrep_s02_inclusion", "somrep_s02_inclusion"),
+                    FlowResultConfiguration("SOMREP_s02_sms_ad", "somrep_s02_reasons_inclusion", "somrep_s02_reasons_inclusion"),
+                    
+                    FlowResultConfiguration("SOMREP_s02_sms_ad", "somrep_s02_resilience_support", "somrep_s02_resilience_support"),
+                    FlowResultConfiguration("SOMREP_s02_sms_ad", "somrep_s02_reason_resilience_support", "somrep_s02_reason_resilience_support"),
+
+                    FlowResultConfiguration("CHASP_s02_sms_ad", "chasp_s02_complains_feedback", "chasp_s02_complains_feedback"),
+                    FlowResultConfiguration("CHASP_s02_sms_ad", "chasp_s02_reasons_complains", "chasp_s02_reasons_complains"),
+
+                    FlowResultConfiguration("CHASP_s02_sms_ad", "chasp_s02_gov_services", "chasp_s02_gov_services"),
+                    FlowResultConfiguration("CHASP_s02_sms_ad", "chasp_s02_reasons_gov_services", "chasp_s02_reasons_gov_services"),
+
+                    FlowResultConfiguration("CHASP_s02_sms_ad", "chasp_s02_inclusion", "chasp_s02_inclusion"),
+                    FlowResultConfiguration("CHASP_s02_sms_ad", "chasp_s02_reasons_inclusion", "chasp_s02_reasons_inclusion"),
+
+                    FlowResultConfiguration("CHASP_s02_sms_ad", "chasp_s02_support", "chasp_s02_support"),
+                    FlowResultConfiguration("CHASP_s02_sms_ad", "chasp_s02_reasons_support", "chasp_s02_reasons_support"),
+
+                    FlowResultConfiguration("SIRA_s02_sms_ad", "sira_s02_feedback_mechanism", "sira_s02_feedback_mechanism"),
+                    FlowResultConfiguration("SIRA_s02_sms_ad", "sira_s02_reasons_feedback", "sira_s02_reasons_feedback"),
+
+                    FlowResultConfiguration("SIRA_s02_sms_ad", "sira_s02_gov_services", "sira_s02_gov_services"),
+                    FlowResultConfiguration("SIRA_s02_sms_ad", "sira_s02_reasons_gov_services", "sira_s02_reasons_gov_services"),
+
+                    FlowResultConfiguration("SIRA_s02_sms_ad", "sira_s02_inclusion", "sira_s02_inclusion"),
+                    FlowResultConfiguration("SIRA_s02_sms_ad", "sira_s02_reasons_inclusion", "sira_s02_reasons_inclusion"),
+
+                    FlowResultConfiguration("SIRA_s02_sms_ad", "sira_s02_support", "sira_s02_support"),
+                    FlowResultConfiguration("SIRA_s02_sms_ad", "sira_s02_reasons_support", "sira_s02_reasons_support"),
+
+                    FlowResultConfiguration("R2P_s01_sms_ad", "r2p_s01_inclusion", "r2p_s01_feedback_mechanism"),
+                    FlowResultConfiguration("R2P_s01_sms_ad", "r2p_s01_reasons_inclusion", "r2p_s01_reasons_inclusion"),
+
+                    FlowResultConfiguration("R2P_s01_sms_ad", "r2p_s01_governance", "r2p_s01_governance"),
+                    FlowResultConfiguration("R2P_s01_sms_ad", "r2p_s01_reasons_governance", "r2p_s01_reasons_governance"),
+
+                    FlowResultConfiguration("R2P_s01_sms_ad", "r2p_s01_impact", "r2p_s01_impact"),
+                    FlowResultConfiguration("R2P_s01_sms_ad", "r2p_s01_reasons_impact", "r2p_s01_reasons_impact"),
+
+                    FlowResultConfiguration("R2P_s01_sms_ad", "r2p_s01_support", "r2p_s01_support"),
+                    FlowResultConfiguration("R2P_s01_sms_ad", "r2p_s01_reasons_support", "r2p_s01_reasons_support"),
+
                     FlowResultConfiguration("sdc_survey_s02e01_activation", "rqa_s02e01", "sdc_survey_s02e01"),
                     FlowResultConfiguration("sdc_survey_s02e02_activation", "rqa_s02e02", "sdc_survey_s02e02"),
                     FlowResultConfiguration("sdc_survey_s02e03_activation", "rqa_s02e03", "sdc_survey_s02e03"),
