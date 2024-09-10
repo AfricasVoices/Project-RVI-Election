@@ -70,7 +70,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     QuestionConfiguration(engagement_db_dataset="gender", question_titles=["Mahadsanid. Ma waxaad tahay Rag mise Dumar? Fadlan kaga jawaab Rag ama Dumar.\nWhat is your gender?"]),
                     QuestionConfiguration(engagement_db_dataset="age", question_titles=["Da'daadu maxay tahay? Fadlan kaga jawaab tiro.\nHow old are you? Please answer with a number in years."]),
                     QuestionConfiguration(engagement_db_dataset="recently_displaced", question_titles=["Ma waxaad tahay qof soo barakacay dhawaan? Hadii haa ay tahay jawaabtadu, Maxa kusoo barakiciyay?\nAre you currently displaced? If so, what made you leave your home?"]),
-                    QuestionConfiguration(engagement_db_dataset="disability", question_titles=["Wax naafo ah miyaad leedahay? Haa/Maya\nDo you have a disability?"]),
+                    QuestionConfiguration(engagement_db_dataset="disability", question_titles=["Wax naafo ah miyaad leedahay?\nDo you have a disability?"]),
                     QuestionConfiguration(engagement_db_dataset="household_language", question_titles=["Luuqaddee ayaad caadi ahaan gurigiinna dhexdiisa uga hadashaan?\nWhat language do you usually speak in your household?"])
                 ]
             )
