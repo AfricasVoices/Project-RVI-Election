@@ -74,7 +74,7 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     FlowResultConfiguration("SIRA_s02_sms_ad", "sira_s02_support", "sira_s02_support"),
                     FlowResultConfiguration("SIRA_s02_sms_ad", "sira_s02_reasons_support", "sira_s02_reasons_support"),
 
-                    FlowResultConfiguration("R2P_s01_sms_ad", "r2p_s01_inclusion", "r2p_s01_feedback_mechanism"),
+                    FlowResultConfiguration("R2P_s01_sms_ad", "r2p_s01_inclusion", "r2p_s01_inclusion"),
                     FlowResultConfiguration("R2P_s01_sms_ad", "r2p_s01_reasons_inclusion", "r2p_s01_reasons_inclusion"),
 
                     FlowResultConfiguration("R2P_s01_sms_ad", "r2p_s01_governance", "r2p_s01_governance"),
@@ -399,13 +399,13 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
                     ws_code_match_value="sira_s02_reasons_support"
                 ),
                 CodaDatasetConfiguration(
-                    coda_dataset_id="r2p_s01_feedback_mechanism",
-                    engagement_db_dataset="r2p_s01_feedback_mechanism",
+                    coda_dataset_id="r2p_s01_inclusion",
+                    engagement_db_dataset="r2p_s01_inclusion",
                     code_scheme_configurations=[
-                        CodeSchemeConfiguration(code_scheme=load_code_scheme("rqas/sdc_somalia/r2p_s01_feedback_mechanism"), 
+                        CodeSchemeConfiguration(code_scheme=load_code_scheme("rqas/sdc_somalia/r2p_s01_inclusion"), 
                                                 coda_code_schemes_count=3),
                     ],
-                    ws_code_match_value="r2p_s01_feedback_mechanism"
+                    ws_code_match_value="r2p_s01_inclusion"
                 ),
                 CodaDatasetConfiguration(
                     coda_dataset_id="r2p_s01_reasons_inclusion",
