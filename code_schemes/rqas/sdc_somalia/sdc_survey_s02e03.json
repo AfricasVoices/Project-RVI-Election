@@ -4,6 +4,70 @@
     "Version": "0.0.0.1",
     "Codes": [
         {
+            "CodeID": "code-3e32c06b",
+            "DisplayText": "government support",
+            "CodeType": "Normal",
+            "NumericValue": 1,
+            "StringValue": "government_support",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-df027ede",
+            "DisplayText": "ngos assistance",
+            "CodeType": "Normal",
+            "NumericValue": 2,
+            "StringValue": "ngos_assistance",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-e25c83a1",
+            "DisplayText": "received no support",
+            "CodeType": "Normal",
+            "NumericValue": 3,
+            "StringValue": "received_no_support",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-7ed7ff98",
+            "DisplayText": "received limited support",
+            "CodeType": "Normal",
+            "NumericValue": 4,
+            "StringValue": "received_limited_support",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-4a0a34f3",
+            "DisplayText": "no effects",
+            "CodeType": "Normal",
+            "NumericValue": 5,
+            "StringValue": "no_effects",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-7a4dcb3a",
+            "DisplayText": "community support",
+            "CodeType": "Normal",
+            "NumericValue": 6,
+            "StringValue": "community_support",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-7f29e5d4",
+            "DisplayText": "received massive support",
+            "CodeType": "Normal",
+            "NumericValue": 7,
+            "StringValue": "received_massive_support",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-121d0728",
+            "DisplayText": "other theme",
+            "CodeType": "Normal",
+            "NumericValue": 8,
+            "StringValue": "other_theme",
+            "VisibleInCoda": true
+        },
+        {
             "CodeID": "code-NA-f93d3eb7",
             "CodeType": "Control",
             "ControlCode": "NA",

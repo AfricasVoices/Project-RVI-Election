@@ -4,6 +4,62 @@
     "Version": "0.0.0.1",
     "Codes": [
         {
+            "CodeID": "code-6f0058b4",
+            "DisplayText": "the government",
+            "CodeType": "Normal",
+            "NumericValue": 1,
+            "StringValue": "the_government",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-7d902db8",
+            "DisplayText": "ngos",
+            "CodeType": "Normal",
+            "NumericValue": 2,
+            "StringValue": "ngos",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-13c0b82f",
+            "DisplayText": "the youth",
+            "CodeType": "Normal",
+            "NumericValue": 3,
+            "StringValue": "the_youth",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-f09a2dda",
+            "DisplayText": "the community",
+            "CodeType": "Normal",
+            "NumericValue": 4,
+            "StringValue": "the_community",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-19b9ba95",
+            "DisplayText": "no support provided",
+            "CodeType": "Normal",
+            "NumericValue": 5,
+            "StringValue": "no_support_provided",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-b27b2210",
+            "DisplayText": "i do not know",
+            "CodeType": "Normal",
+            "NumericValue": 6,
+            "StringValue": "i_do_not_know",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-8af1dc7c",
+            "DisplayText": "other theme",
+            "CodeType": "Normal",
+            "NumericValue": 7,
+            "StringValue": "other_theme",
+            "VisibleInCoda": true
+        },
+        {
             "CodeID": "code-NA-f93d3eb7",
             "CodeType": "Control",
             "ControlCode": "NA",
