@@ -114,6 +114,36 @@ PIPELINE_CONFIGURATION = PipelineConfiguration(
             sync_config=GoogleFormToEngagementDBConfiguration(
                 form_id="1htXX0AoaHVwPhWyu7lVTWITjf5SC0SNaja4wftyLf5I",
                 question_configurations=[
+                    # CHASP
+                    QuestionConfiguration(engagement_db_dataset="chasp_s02_support", question_titles=["Using a scale of 0 to 5, with 5 indicating the highest level of satisfaction, how do you rate your satisfaction with the quality of health services provided by the project implemented by Save the Children in your community?"]),
+                    QuestionConfiguration(engagement_db_dataset="chasp_s02_reasons_support", question_titles=["In order to improve, we would like to know the reason for your rating of level of satisfaction with Save the Children project."]),
+                    QuestionConfiguration(engagement_db_dataset="chasp_s02_complains_feedback", question_titles=["Using a scale of 0 to 5, with 5 being the highest level of satisfaction, how satisfied are you with the complaints & feedback mechanism of the Save the Children project and the follow-up on feedback submitted?"]),
+                    QuestionConfiguration(engagement_db_dataset="chasp_s02_reasons_complains", question_titles=["In order to improve, we would like to know the reason for your rating of complaints & feedback mechanism of Save the Children project."]),
+                    QuestionConfiguration(engagement_db_dataset="chasp_s02_inclusion", question_titles=["On a scale of 0 to 5, with 5 being the highest, to what extent do you feel included and have participated in decision making processes regarding healthcare services in your community?"]),
+                    QuestionConfiguration(engagement_db_dataset="chasp_s02_reasons_inclusion", question_titles=["In order to improve, we would like to know the reason for your rating of decision making processes in the healthcare services access by Save the Children."]),
+                    QuestionConfiguration(engagement_db_dataset="chasp_s02_gov_services", question_titles=["Rate your satisfaction with government services in your community, in relation to healthcare services, on a scale of 0 to 5, with 5 indicating high satisfaction."]),
+                    QuestionConfiguration(engagement_db_dataset="chasp_s02_reasons_gov_services", question_titles=["In order to improve, we would like to know the reason for your rating of government services."]),
+
+                    # SOMREP
+                    QuestionConfiguration(engagement_db_dataset="", question_titles=["Using a scale of 0 to 5, with 5 indicating the highest level of satisfaction, how do you rate your satisfaction with the quality of support provided by the SomRep  project implemented by OXFAM and COOPI in your community?"]),
+                    QuestionConfiguration(engagement_db_dataset="", question_titles=["In order to improve, we would like to know the reason for your rating on level of satisfaction with OXFAM and COOPI."]),
+                    QuestionConfiguration(engagement_db_dataset="", question_titles=["Using a scale of 0 to 5, with 5 being the highest level of satisfaction, how satisfied are you with the complaints & feedback mechanism of SOMREP implemented by OXFAM and COOPI and the follow-up on feedback submitted?"]),
+                    QuestionConfiguration(engagement_db_dataset="", question_titles=["In order to improve, we would like to know the reason for your rating on complaints & feedback mechanism of OXFAM and COOPI."]),
+                    QuestionConfiguration(engagement_db_dataset="", question_titles=["On a scale of 0 to 5, with 5 being the highest, to what extent do you feel included and have participated in decision making processes on resilience initiatives in your community?"]),
+                    QuestionConfiguration(engagement_db_dataset="", question_titles=["In order to improve, we would like to know the reason for your rating on decision making processes of initiatives for the SomReP."]),
+                    QuestionConfiguration(engagement_db_dataset="", question_titles=["Rate your satisfaction with government services, in regards to resilience, in your community on a scale of 0 to 5, with 5 indicating high satisfaction."]),
+                    QuestionConfiguration(engagement_db_dataset="", question_titles=["In order to improve, we would like to know the reason for your rating of government services (SomReP)."]),
+
+                    # R2P
+                    QuestionConfiguration(engagement_db_dataset="", question_titles=["Using a scale of 0 to 5, with 5 indicating the highest level of satisfaction, how do you rate the effectiveness of the peace dialogues and mediation efforts facilitated by the 'Road to Peace' project implemented by PDRC and Horn Centre in resolving conflicts in your community?"]),
+                    QuestionConfiguration(engagement_db_dataset="", question_titles=["In order to improve, we would like to know the reason for your rating of level of satisfaction with PDRC and Horn Centre initiatives."]),
+                    QuestionConfiguration(engagement_db_dataset="", question_titles=["Using a scale of 0 to 5, with 5 being the highest, to what extent do you feel that you and your community were included in the peacebuilding and decision making processes initiated by the 'Road to Peace' project by PDRC and Horn Centre?"]),
+                    QuestionConfiguration(engagement_db_dataset="", question_titles=["In order to improve, we would like to know the reason for your rating of decision making processes of PDRC."]),
+                    QuestionConfiguration(engagement_db_dataset="", question_titles=["Using a scale of 0 to 5, with 5 being the highest, how do you rate the impact of the 'Road to Peace' project on improving relationships and trust between different clans or groups in your community?"]),
+                    QuestionConfiguration(engagement_db_dataset="", question_titles=["In order to improve, we would like to know the reason for your rating of the impact of R2P project."]),
+                    QuestionConfiguration(engagement_db_dataset="", question_titles=["Using a scale of 0 to 5, with 5 indicating high satisfaction, how satisfied are you with the support provided by the 'Road to Peace' project in strengthening local governance and rule of law in your community?"]),
+                    QuestionConfiguration(engagement_db_dataset="", question_titles=["In order to improve, we would like to know the reason for your rating of support provided by R2P."]),
+
                     QuestionConfiguration(engagement_db_dataset="location", question_titles=["Degmadee ayaad ku nooshahay?\nIn which district of Somalia do you currently live?"]),
                     QuestionConfiguration(engagement_db_dataset="gender", question_titles=["Mahadsanid. Ma waxaad tahay Rag mise Dumar? Fadlan kaga jawaab Rag ama Dumar.\nWhat is your gender?"]),
                     QuestionConfiguration(engagement_db_dataset="age", question_titles=["Da'daadu maxay tahay? Fadlan kaga jawaab tiro.\nHow old are you? Please answer with a number in years."]),
