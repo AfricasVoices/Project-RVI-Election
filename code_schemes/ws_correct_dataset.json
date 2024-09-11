@@ -391,23 +391,23 @@
         {
             "CodeID": "code-f2p3q4r5",
             "CodeType": "Normal",
-            "DisplayText": "sira_s02_resilience_support",
-            "StringValue": "sira_s02_resilience_support",
+            "DisplayText": "sira_s02_support",
+            "StringValue": "sira_s02_support",
             "NumericValue": 202,
             "VisibleInCoda": true,
             "MatchValues": [
-                "sira_s02_resilience_support"
+                "sira_s02_support"
             ]
         },
         {
             "CodeID": "code-g3q4r5s6",
             "CodeType": "Normal",
-            "DisplayText": "sira_s02_reason_resilience_support",
-            "StringValue": "sira_s02_reason_resilience_support",
+            "DisplayText": "sira_s02_reasons_support",
+            "StringValue": "sira_s02_reasons_support",
             "NumericValue": 203,
             "VisibleInCoda": true,
             "MatchValues": [
-                "sira_s02_reason_resilience_support"
+                "sira_s02_reasons_support"
             ]
         },
         {
