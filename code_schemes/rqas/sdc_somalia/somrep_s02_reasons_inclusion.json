@@ -4,6 +4,46 @@
     "Version": "0.0.0.1",
     "Codes": [
         {
+            "CodeID": "code-4248057c",
+            "DisplayText": "very involved",
+            "CodeType": "Normal",
+            "NumericValue": 1,
+            "StringValue": "very_involved",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-6ac13e49",
+            "DisplayText": "partially involved",
+            "CodeType": "Normal",
+            "NumericValue": 2,
+            "StringValue": "partially_involved",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-3a37c22d",
+            "DisplayText": "limited involvement for women",
+            "CodeType": "Normal",
+            "NumericValue": 3,
+            "StringValue": "limited_involvement_for_women",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-debf1b59",
+            "DisplayText": "not included in decision making",
+            "CodeType": "Normal",
+            "NumericValue": 4,
+            "StringValue": "not_included_in_decision_making",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-ab287423",
+            "DisplayText": "other theme",
+            "CodeType": "Normal",
+            "NumericValue": 5,
+            "StringValue": "other_theme",
+            "VisibleInCoda": true
+        },
+        {
             "CodeID": "code-NA-f93d3eb7",
             "CodeType": "Control",
             "ControlCode": "NA",
