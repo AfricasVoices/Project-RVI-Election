@@ -4,6 +4,46 @@
     "Version": "0.0.0.1",
     "Codes": [
         {
+            "CodeID": "code-1badd254",
+            "DisplayText": "effective",
+            "CodeType": "Normal",
+            "NumericValue": 1,
+            "StringValue": "effective",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-c020e74e",
+            "DisplayText": "slow or inconsistent responses",
+            "CodeType": "Normal",
+            "NumericValue": 2,
+            "StringValue": "slow_or_inconsistent_responses",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-c76d297e",
+            "DisplayText": "aware but have not used it",
+            "CodeType": "Normal",
+            "NumericValue": 3,
+            "StringValue": "aware_but_have_not_used_it",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-d5fd56ae",
+            "DisplayText": "unaware of mechanism",
+            "CodeType": "Normal",
+            "NumericValue": 4,
+            "StringValue": "unaware_of_mechanism",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-fe18d8a0",
+            "DisplayText": "other theme",
+            "CodeType": "Normal",
+            "NumericValue": 5,
+            "StringValue": "other_theme",
+            "VisibleInCoda": true
+        },
+        {
             "CodeID": "code-NA-f93d3eb7",
             "CodeType": "Control",
             "ControlCode": "NA",
