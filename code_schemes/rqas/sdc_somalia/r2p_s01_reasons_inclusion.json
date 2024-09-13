@@ -20,6 +20,14 @@
             "VisibleInCoda": true
         },
         {
+            "CodeID": "code-4ed238f2",
+            "DisplayText": "women partial inclusion",
+            "CodeType": "Normal",
+            "NumericValue": 5,
+            "StringValue": "women partial_inclusion",
+            "VisibleInCoda": true
+        },
+        {
             "CodeID": "code-0b613e7c",
             "DisplayText": "no inclusion",
             "CodeType": "Normal",
