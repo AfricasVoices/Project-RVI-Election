@@ -44,14 +44,6 @@
             "VisibleInCoda": true
         },
         {
-            "CodeID": "code-fa98fb53",
-            "DisplayText": "other theme",
-            "CodeType": "Normal",
-            "NumericValue": 10,
-            "StringValue": "other_theme",
-            "VisibleInCoda": true
-        },
-        {
             "CodeID": "code-c97c2994",
             "DisplayText": "satisfied",
             "CodeType": "Normal",
