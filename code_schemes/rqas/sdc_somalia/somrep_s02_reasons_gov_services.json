@@ -4,6 +4,38 @@
     "Version": "0.0.0.1",
     "Codes": [
         {
+            "CodeID": "code-df9e4d77",
+            "DisplayText": "sufficient support",
+            "CodeType": "Normal",
+            "NumericValue": 5,
+            "StringValue": "sufficient_support",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-61bf4b23",
+            "DisplayText": "limited government services",
+            "CodeType": "Normal",
+            "NumericValue": 6,
+            "StringValue": "limited_government_services",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-68e30c50",
+            "DisplayText": "need for more support",
+            "CodeType": "Normal",
+            "NumericValue": 7,
+            "StringValue": "need_for_more_support",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-b23e1a04",
+            "DisplayText": "lack of government services",
+            "CodeType": "Normal",
+            "NumericValue": 8,
+            "StringValue": "lack_of_government_services",
+            "VisibleInCoda": true
+        },
+        {
             "CodeID": "code-25112932",
             "DisplayText": "satisfied",
             "CodeType": "Normal",
