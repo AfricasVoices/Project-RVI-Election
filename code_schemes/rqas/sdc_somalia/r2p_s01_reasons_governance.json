@@ -4,6 +4,54 @@
     "Version": "0.0.0.1",
     "Codes": [
         {
+            "CodeID": "code-80554ccd",
+            "DisplayText": "effective support",
+            "CodeType": "Normal",
+            "NumericValue": 5,
+            "StringValue": "effective_support",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-cb260401",
+            "DisplayText": "partial and inconsistent support",
+            "CodeType": "Normal",
+            "NumericValue": 6,
+            "StringValue": "partial_and_inconsistent_support",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-cab43e6b",
+            "DisplayText": "more work needed",
+            "CodeType": "Normal",
+            "NumericValue": 7,
+            "StringValue": "more_work_needed",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-d193217e",
+            "DisplayText": "not satisfied",
+            "CodeType": "Normal",
+            "NumericValue": 8,
+            "StringValue": "not_satisfied",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-c375c6dc",
+            "DisplayText": "no impact",
+            "CodeType": "Normal",
+            "NumericValue": 9,
+            "StringValue": "no_impact",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-fa98fb53",
+            "DisplayText": "other theme",
+            "CodeType": "Normal",
+            "NumericValue": 10,
+            "StringValue": "other_theme",
+            "VisibleInCoda": true
+        },
+        {
             "CodeID": "code-c97c2994",
             "DisplayText": "satisfied",
             "CodeType": "Normal",
