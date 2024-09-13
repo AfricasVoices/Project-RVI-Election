@@ -4,6 +4,46 @@
     "Version": "0.0.0.1",
     "Codes": [
         {
+            "CodeID": "code-3d1dca03",
+            "DisplayText": "improved health services",
+            "CodeType": "Normal",
+            "NumericValue": 1,
+            "StringValue": "improved_health_services",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-36a7bd5a",
+            "DisplayText": "minor improvement",
+            "CodeType": "Normal",
+            "NumericValue": 2,
+            "StringValue": "minor_improvement",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-86c4e3bc",
+            "DisplayText": "poor services",
+            "CodeType": "Normal",
+            "NumericValue": 3,
+            "StringValue": "poor_services",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-87bed8ac",
+            "DisplayText": "no government service",
+            "CodeType": "Normal",
+            "NumericValue": 4,
+            "StringValue": "no_government_service",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-3d744443",
+            "DisplayText": "other theme",
+            "CodeType": "Normal",
+            "NumericValue": 5,
+            "StringValue": "other_theme",
+            "VisibleInCoda": true
+        },
+        {
             "CodeID": "code-NA-f93d3eb7",
             "CodeType": "Control",
             "ControlCode": "NA",
