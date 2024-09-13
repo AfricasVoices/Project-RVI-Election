@@ -5,18 +5,18 @@
     "Codes": [
         {
             "CodeID": "code-3d1dca03",
-            "DisplayText": "improved health services",
+            "DisplayText": "effective",
             "CodeType": "Normal",
             "NumericValue": 1,
-            "StringValue": "improved_health_services",
+            "StringValue": "effective",
             "VisibleInCoda": true
         },
         {
             "CodeID": "code-36a7bd5a",
-            "DisplayText": "minor improvement",
+            "DisplayText": "more support needed",
             "CodeType": "Normal",
             "NumericValue": 2,
-            "StringValue": "minor_improvement",
+            "StringValue": "more_support_needed",
             "VisibleInCoda": true
         },
         {
