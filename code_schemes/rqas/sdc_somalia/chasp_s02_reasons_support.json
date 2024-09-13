@@ -4,6 +4,78 @@
     "Version": "0.0.0.1",
     "Codes": [
         {
+            "CodeID": "code-115a9c0b",
+            "DisplayText": "effective",
+            "CodeType": "Normal",
+            "NumericValue": 1,
+            "StringValue": "effective",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-41e07c59",
+            "DisplayText": "enhanced accessibility",
+            "CodeType": "Normal",
+            "NumericValue": 2,
+            "StringValue": "enhanced_accessibility",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-c9e9235b",
+            "DisplayText": "free health services",
+            "CodeType": "Normal",
+            "NumericValue": 3,
+            "StringValue": "free_health_services",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-241820c2",
+            "DisplayText": "limited nutritional advice",
+            "CodeType": "Normal",
+            "NumericValue": 4,
+            "StringValue": "limited_nutritional_advice",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-8f4c75ed",
+            "DisplayText": "insuffient health equipmenmt and services",
+            "CodeType": "Normal",
+            "NumericValue": 5,
+            "StringValue": "insuffient_health_equipmenmt_and_services",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-73295436",
+            "DisplayText": "under-saffed",
+            "CodeType": "Normal",
+            "NumericValue": 6,
+            "StringValue": "under_saffed",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-b2eda225",
+            "DisplayText": "lack of medicine and equipment",
+            "CodeType": "Normal",
+            "NumericValue": 7,
+            "StringValue": "lack_of_medicine_and_equipment",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-f7aa28f7",
+            "DisplayText": "no specialized treatment",
+            "CodeType": "Normal",
+            "NumericValue": 8,
+            "StringValue": "no_specialized_treatment",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-bd048a13",
+            "DisplayText": "other theme",
+            "CodeType": "Normal",
+            "NumericValue": 9,
+            "StringValue": "other_theme",
+            "VisibleInCoda": true
+        },
+        {
             "CodeID": "code-NA-f93d3eb7",
             "CodeType": "Control",
             "ControlCode": "NA",
