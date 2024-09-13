@@ -28,6 +28,14 @@
             "VisibleInCoda": true
         },
         {
+            "CodeID": "code-046cf667",
+            "DisplayText": "limited effectiveness",
+            "CodeType": "Normal",
+            "NumericValue": 5,
+            "StringValue": "limited_effectiveness",
+            "VisibleInCoda": true
+        },
+        {
             "CodeID": "code-3d63e667",
             "DisplayText": "other theme",
             "CodeType": "Normal",
