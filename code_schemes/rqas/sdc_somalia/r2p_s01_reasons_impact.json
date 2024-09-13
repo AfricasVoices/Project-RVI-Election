@@ -4,6 +4,38 @@
     "Version": "0.0.0.1",
     "Codes": [
         {
+            "CodeID": "code-1f8254ab",
+            "DisplayText": "impactful",
+            "CodeType": "Normal",
+            "NumericValue": 1,
+            "StringValue": "impactful",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-9e071517",
+            "DisplayText": "partially impactful",
+            "CodeType": "Normal",
+            "NumericValue": 2,
+            "StringValue": "partially_impactful",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-056cf666",
+            "DisplayText": "no impact",
+            "CodeType": "Normal",
+            "NumericValue": 3,
+            "StringValue": "no_impact",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-3d63e667",
+            "DisplayText": "other theme",
+            "CodeType": "Normal",
+            "NumericValue": 4,
+            "StringValue": "other_theme",
+            "VisibleInCoda": true
+        },
+        {
             "CodeID": "code-NA-f93d3eb7",
             "CodeType": "Control",
             "ControlCode": "NA",

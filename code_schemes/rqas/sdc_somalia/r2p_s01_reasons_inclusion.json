@@ -4,6 +4,38 @@
     "Version": "0.0.0.1",
     "Codes": [
         {
+            "CodeID": "code-09cfde45",
+            "DisplayText": "effective inclusion",
+            "CodeType": "Normal",
+            "NumericValue": 1,
+            "StringValue": "effective_inclusion",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-3ed238f1",
+            "DisplayText": "partial inclusion",
+            "CodeType": "Normal",
+            "NumericValue": 2,
+            "StringValue": "partial_inclusion",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-0b613e7c",
+            "DisplayText": "no inclusion",
+            "CodeType": "Normal",
+            "NumericValue": 3,
+            "StringValue": "no_inclusion",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-5513500a",
+            "DisplayText": "other theme",
+            "CodeType": "Normal",
+            "NumericValue": 4,
+            "StringValue": "other_theme",
+            "VisibleInCoda": true
+        },
+        {
             "CodeID": "code-NA-f93d3eb7",
             "CodeType": "Control",
             "ControlCode": "NA",
