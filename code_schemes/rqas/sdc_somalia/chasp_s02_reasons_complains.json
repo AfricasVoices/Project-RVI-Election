@@ -21,10 +21,10 @@
         },
         {
             "CodeID": "code-38a9f90b",
-            "DisplayText": "inaccessible to all",
+            "DisplayText": "available but limited access",
             "CodeType": "Normal",
             "NumericValue": 3,
-            "StringValue": "inaccessible_to_all",
+            "StringValue": "available but limited access",
             "VisibleInCoda": true
         },
         {
