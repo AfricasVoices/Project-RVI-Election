@@ -4,6 +4,54 @@
     "Version": "0.0.0.1",
     "Codes": [
         {
+            "CodeID": "code-972327bd",
+            "DisplayText": "improved resilience",
+            "CodeType": "Normal",
+            "NumericValue": 1,
+            "StringValue": "improved_resilience",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-fd34da97",
+            "DisplayText": "improved livelihoods",
+            "CodeType": "Normal",
+            "NumericValue": 2,
+            "StringValue": "improved_livelihoods",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-c6d3a5b2",
+            "DisplayText": "provided financial assistance",
+            "CodeType": "Normal",
+            "NumericValue": 3,
+            "StringValue": "provided_financial_assistance",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-0b0419f1",
+            "DisplayText": "more support needed",
+            "CodeType": "Normal",
+            "NumericValue": 4,
+            "StringValue": "more_support_needed",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-54bcc7b4",
+            "DisplayText": "minimal or no support",
+            "CodeType": "Normal",
+            "NumericValue": 5,
+            "StringValue": "minimal_or_no_support",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-51911061",
+            "DisplayText": "other theme",
+            "CodeType": "Normal",
+            "NumericValue": 6,
+            "StringValue": "other_theme",
+            "VisibleInCoda": true
+        },
+        {
             "CodeID": "code-NA-f93d3eb7",
             "CodeType": "Control",
             "ControlCode": "NA",
