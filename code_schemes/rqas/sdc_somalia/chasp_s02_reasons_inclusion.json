@@ -4,6 +4,54 @@
     "Version": "0.0.0.1",
     "Codes": [
         {
+            "CodeID": "code-6f2905ea",
+            "DisplayText": "included",
+            "CodeType": "Normal",
+            "NumericValue": 1,
+            "StringValue": "included",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-239162b5",
+            "DisplayText": "not sure if their voices are considered",
+            "CodeType": "Normal",
+            "NumericValue": 2,
+            "StringValue": "not_sure_if_their_voices_are_considered",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-4955d4e5",
+            "DisplayText": "limited inclusion",
+            "CodeType": "Normal",
+            "NumericValue": 3,
+            "StringValue": "limited_inclusion",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-ef669955",
+            "DisplayText": "limited women inclusion",
+            "CodeType": "Normal",
+            "NumericValue": 4,
+            "StringValue": "limited_women_inclusion",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-1405b942",
+            "DisplayText": "not included",
+            "CodeType": "Normal",
+            "NumericValue": 5,
+            "StringValue": "not_included",
+            "VisibleInCoda": true
+        },
+        {
+            "CodeID": "code-325b5d5b",
+            "DisplayText": "other theme",
+            "CodeType": "Normal",
+            "NumericValue": 6,
+            "StringValue": "other_theme",
+            "VisibleInCoda": true
+        },
+        {
             "CodeID": "code-NA-f93d3eb7",
             "CodeType": "Control",
             "ControlCode": "NA",
