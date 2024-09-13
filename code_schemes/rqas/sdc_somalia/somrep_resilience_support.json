@@ -52,26 +52,10 @@
             "VisibleInCoda": true
         },
         {
-            "CodeID": "code-df391a35",
-            "DisplayText": "satisfied",
-            "CodeType": "Normal",
-            "NumericValue": 7,
-            "StringValue": "satisfied",
-            "VisibleInCoda": true
-        },
-        {
-            "CodeID": "code-9fdf7cc9",
-            "DisplayText": "not satisfied",
-            "CodeType": "Normal",
-            "NumericValue": 8,
-            "StringValue": "not_satisfied",
-            "VisibleInCoda": true
-        },
-        {
             "CodeID": "code-dccb4387",
             "DisplayText": "other theme",
             "CodeType": "Normal",
-            "NumericValue": 9,
+            "NumericValue": 7,
             "StringValue": "other_theme",
             "VisibleInCoda": true
         },
